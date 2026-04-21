@@ -1,0 +1,105 @@
+/* =========================
+   ESTILO GENERAL
+========================= */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* =========================
+   MENSAJE
+========================= */
+
+#mensaje {
+  text-align: center;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+}
+
+/* =========================
+   CONTENEDOR PRODUCTOS
+========================= */
+
+#productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* CARD PRODUCTO */
+#productos div {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* IMAGEN */
+#productos img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* BOTONES */
+button {
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+/* =========================
+   CARRITO
+========================= */
+
+#carrito {
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+
+#carrito div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* =========================
+   TOTAL + FINALIZAR
+========================= */
+
+#total {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#finalizarCompra {
+  display: block;
+  margin: 20px auto;
+  background-color: #43a047;
+}
+
+#finalizarCompra:hover {
+  background-color: #2e7d32;
+}
